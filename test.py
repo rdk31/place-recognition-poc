@@ -44,3 +44,6 @@ for pos, images in tqdm(test_data):
 
 df = pd.DataFrame(results, columns=["distance"])
 print(df.describe())
+
+df["correct"] = df["distance"] < 50
+print(df["correct"].value_counts())

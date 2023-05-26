@@ -1,4 +1,4 @@
-# place-recognition
+# place-recognition-poc
 
 1. Download [dataset](https://zenodo.org/record/1243106)
 2. Unpack it to root dir
